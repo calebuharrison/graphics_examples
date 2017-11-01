@@ -1,0 +1,26 @@
+name: graphics_examples
+version: 0.1.0
+
+authors:
+  - Caleb Uriah Harrison <calebuharrison@gmail.com>
+
+targets:
+  graphics_examples:
+    main: src/graphics_examples.cr
+
+dependencies:
+  crystglfw:
+    github: calebuharrison/CrystGLFW
+
+  crystgl:
+    github: calebuharrison/CrystGL
+
+  redemption:
+    github: calebuharrison/Redemption
+
+  crystimage:
+    github: calebuharrison/CrystImage
+
+crystal: 0.23.1
+
+license: MIT

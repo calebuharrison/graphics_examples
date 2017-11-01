@@ -1,0 +1,30 @@
+version: 1.0
+shards:
+  crystgl:
+    github: calebuharrison/CrystGL
+    commit: c39912c8723873ea50b628940d79ce725b6cd37f
+
+  crystglfw:
+    github: calebuharrison/CrystGLFW
+    version: 0.2.0
+
+  crystimage:
+    github: calebuharrison/CrystImage
+    commit: 98f8a7b80100ee4bab3205ceb924128ec41e3148
+
+  lib_gl:
+    github: calebuharrison/LibGL
+    commit: 9a05aef8f2f8dbc43f821e5ca104458be85a2a30
+
+  lib_glfw:
+    github: calebuharrison/LibGLFW
+    commit: 4cf7c3774f278d7e044bb30a35b104f5b12fdc53
+
+  lib_stb_image:
+    github: calebuharrison/LibSTBImage
+    commit: 32bc23af165dbe004a7468426f09e6701463bc72
+
+  redemption:
+    github: calebuharrison/Redemption
+    commit: 39b33b91c8d49be10867daf828c0678aa539fa4f
+
