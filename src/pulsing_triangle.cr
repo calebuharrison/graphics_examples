@@ -1,7 +1,7 @@
 require "crystglfw"
 require "crystgl"
 
-module HelloTriangle
+module PulsingTriangle
   include CrystGLFW
   include CrystGL
 
@@ -37,7 +37,7 @@ module HelloTriangle
       }
     SHADER
 
-    window = Window.new(width: window_size[:width], height: window_size[:height], title: "Hello Triangle!", hints: hints)
+    window = Window.new(width: window_size[:width], height: window_size[:height], title: "Pulsing Triangle!", hints: hints)
     window.make_context_current
 
     window.on_framebuffer_resize do |event|
